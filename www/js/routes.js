@@ -63,7 +63,7 @@ angular.module('app.routes', [])
     }
   })
 
-  .state('payment', {
+  .state('a.payment', {
     url: '/page7',
     templateUrl: 'templates/payment.html',
     controller: 'paymentCtrl'
@@ -82,9 +82,21 @@ angular.module('app.routes', [])
   })
 
   .state('submenu2', {
-    url: '/page9',
+    url: '/page10',
     templateUrl: 'templates/submenu2.html',
     controller: 'submenu2Ctrl'
+  })
+
+  .state('news', {
+    url: '/page11',
+    templateUrl: 'templates/news.html',
+    controller: 'newsCtrl'
+  })
+
+  .state('profile', {
+    url: '/page12',
+    templateUrl: 'templates/profile.html',
+    controller: 'profileCtrl'
   })
 
 $urlRouterProvider.otherwise('/side-menu21/page5')
