@@ -99,7 +99,7 @@ angular.module('app.routes', [])
     controller: 'profileCtrl'
   })
 
-$urlRouterProvider.otherwise('/side-menu21/page5')
+$urlRouterProvider.otherwise('/page4')
 
 
 });

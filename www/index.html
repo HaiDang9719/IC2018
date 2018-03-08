@@ -54,6 +54,19 @@
     <script src="js/directives.js"></script>
     <script src="js/services.js"></script>
 
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAkeRfGHGo3eBBgNwsOYX-WSrkxLENmDjU",
+        authDomain: "instserve.firebaseapp.com",
+        databaseURL: "https://instserve.firebaseio.com",
+        projectId: "instserve",
+        storageBucket: "instserve.appspot.com",
+        messagingSenderId: "569011858745"
+      };
+      firebase.initializeApp(config);
+    </script>
     <!-- Only required for Tab projects w/ pages in multiple tabs 
     <script src="lib/ionicuirouter/ionicUIRouter.js"></script>
     -->
