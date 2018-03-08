@@ -75,6 +75,18 @@ angular.module('app.routes', [])
     controller: 'cashCtrl'
   })
 
+  .state('submenu1', {
+    url: '/page9',
+    templateUrl: 'templates/submenu1.html',
+    controller: 'submenu1Ctrl'
+  })
+
+  .state('submenu2', {
+    url: '/page9',
+    templateUrl: 'templates/submenu2.html',
+    controller: 'submenu2Ctrl'
+  })
+
 $urlRouterProvider.otherwise('/side-menu21/page5')
 
 
